@@ -12,27 +12,23 @@
             <div class="cv-title">
                 <div class="row">
                     <div class="col-sm-7">
-                        <h1>Towkir A. Bappy</h1>
+                        <h1>Sergio A. Quezada Rivera</h1>
                     </div>
                     <div class="col-sm-5 text-right dl-share">
                         <!-- AddToAny BEGIN -->
-                        <a class="a2a_dd btn btn-default" href=""><span class="fa fa-share "></span> Share</a>
-                        <script type="text/javascript">
-                            var a2a_config = a2a_config || {};
-                            a2a_config.linkname = "Minimal CV by EvenFly";
-                            a2a_config.num_services = 6;
-                            a2a_config.prioritize = ["facebook", "twitter", "google_plus", "linkedin", "pinterest", "email"];
-                        </script>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Contacto</button>
                         <script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
                         <!-- AddToAny END -->
 
-                        <a class="btn btn-success" href="" onclick="window.print()"><span class="fa fa-download"></span> Download</a>
+                        <a class="btn btn-success" href="" onclick="window.print()"><span class="fa fa-download"></span> Descargar</a>
                     </div>
                 </div>
-                <h2>UI/UX Designer</h2>
+                <h2>Ingeniero en informática</h2>
             </div><!-- Title end-->
         </div>
     </div>
+    <br>
+    <br>
 	<div class="col-md-8 mainleft">
 	    <div id="statement" class="row mobmid">
 	        <div class="col-sm-1">
@@ -40,12 +36,12 @@
 	        </div><!--icon end-->
 
 	        <div class="col-sm-11">
-	            <h3>Presentación </h3>
+	            <h3>¿Quíen soy?</h3>
 	            <p>Hi, I am Bappy from Bangladesh.Adipiscing elit. Nullam dapibus vehicula condimentum. Curabitur elit enim, accumsan vitae tristique ut, mollis at orci. Fusce cursus interdum neque nec aliquam. Proin turpis leo, laoreet non ultricies non, dictum nec nulla. Duis vitae nisi eu odio Adipiscing elit. Nullam dapibus vehicula condimentum. Curabitur elit enim, accumsan.</p>
 
 	            <p>Consectetur adipisicing elit. Hic labore, unde, ratione, itaque ducimus provident error similique qui, recusandae nam dignissimos autem. Sequi quas quis non, odit assumenda similique neque.</p>
 
-	            <p class="signature">TowkirAhmed</p>
+	            <p class="signature">S. Quezada</p>
 	        </div><!--info end-->
 	    </div><!--personal statement end-->
 
@@ -57,7 +53,7 @@
 	        </div><!--icon end-->
 
 	        <div class="col-sm-11">
-	            <h3>Grado académico y cursos</h3>
+	            <h3>Estudios</h3>
 
 	            <div class="row">
 	                <div class="col-md-9">
@@ -115,7 +111,7 @@
 	        </div><!--icon end-->
 
 	        <div class="col-sm-11">
-	            <h3>Experiencias Laboral</h3>
+	            <h3>Experiencia Laboral</h3>
 
 	            <div class="row">
 	                <div class="col-md-9">
@@ -173,9 +169,9 @@
 	        </div><!--icon end-->
 
 	        <div class="col-sm-11 col-md-10">
-	            <h3 class="mobmid">Technical skills </h3>
+	            <h3 class="mobmid">Habilidades </h3>
 
-	            <p>Photoshop</p>
+	            <p>PHP</p>
 	            <div class="progress">
 	                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
 	                    <span class="sr-only">65% Complete (success)</span>
@@ -183,21 +179,21 @@
 	            </div><!--skill end-->
 
 
-	            <p>Illustrator</p>
+	            <p>JAVA</p>
 	            <div class="progress">
 	                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
 	                    <span class="sr-only">85% Complete</span>
 	                </div>
 	            </div><!--skill end-->
 
-	            <p>InDesign</p>
+	            <p>C#</p>
 	            <div class="progress">
 	                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
 	                    <span class="sr-only">60% Complete (warning)</span>
 	                </div>
 	            </div><!--skill end-->
 
-	            <p>Flash</p>
+	            <p>Javascript</p>
 	            <div class="progress">
 	                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
 	                    <span class="sr-only">30% Complete (danger)</span>
@@ -208,39 +204,13 @@
 	    
 	    <hr>
 
-	    <div class="row mobmid">
-	        <div class="col-sm-1 col-md-2">
-	            <span class="secicon fa fa-trophy"></span>
-	        </div><!--icon end-->
-
-	        <div class="col-sm-11 col-md-10 ">
-	            <h3>Awards</h3>
-
-	            <div class="award">
-	                <h4>Best Designer 2012</h4>
-	                <p class="sub"><a href="">Life View Media Ltd.</a></p>
-	                <p>Studying all aspect of Graphic Design Including Advertising Design, Branding, Copy Exhibition Design, Ilustration.</p>
-	            </div>
-	            <!--1st award end-->
-
-	            <div class="award">
-	                <h4>Best Designer 2011</h4>
-	                <p class="sub"><a href="">Alexa Design Solution</a></p>
-	                <p>Studying all aspect of Graphic Design Including Advertising Design, Branding, Copy Exhibition Design, Ilustration, Information Design, Packaging Design and Website Design</p>
-	            </div><!--1st award end-->
-	        </div><!--awards end-->
-
-	    </div>
-	    
-	    <hr>
-
 	    <div class="row ">
 	        <div class="col-sm-1 col-md-2 mobmid">
 	            <span class="secicon fa fa-quote-left"></span>
 	        </div><!--icon end-->
 
 	        <div class="col-sm-11 col-md-10 testimonials">
-	            <h3 class="mobmid">Testimonials </h3>
+	            <h3 class="mobmid">Referencias </h3>
 
 	            <div class="row">
 	                <blockquote>
@@ -271,4 +241,47 @@
 	        </div><!--testimonials end-->
 	    </div><!--tech skills end-->
 	</div><!--right end-->
+</div>
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+	 		<form class="form-horizontal" role="form" method="post" action="<?php echo base_url("contacto/enviar"); ?>">
+	 			<br>
+				<div class="form-group">
+					<label for="name" class="col-md-2 control-label">Nombre</label>
+					<div class="col-md-9">
+						<input type="text" class="form-control" id="name" name="name" placeholder="Sergio Quezada" value="">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="email" class="col-md-2 control-label">Email</label>
+					<div class="col-md-9">
+						<input type="email" class="form-control" id="email" name="email" placeholder="ejemplo@domain.com" value="">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="message" class="col-md-2 control-label">Mensaje</label>
+					<div class="col-md-9">
+						<textarea class="form-control" rows="4" name="message"></textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="human" class="col-md-2 control-label">2 + 3 = ?</label>
+					<div class="col-md-9">
+						<input type="text" class="form-control" id="human" name="human" placeholder="Respuesta">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-9 col-md-offset-2">
+						<input id="submit" name="submit" type="submit" value="Enviar" class="btn btn-primary">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-9 col-md-offset-2">
+						<! Will be used to display an alert to the user>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
 </div>

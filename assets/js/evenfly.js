@@ -6,7 +6,7 @@ $(document).ready(
         $("html").niceScroll({
             mousescrollstep: 70,
             cursorcolor: "#2ca8f5",
-            cursorwidth: "30px",
+            cursorwidth: "10px",
             cursorborderradius: "50px",
             cursorborder: "none",
         });
