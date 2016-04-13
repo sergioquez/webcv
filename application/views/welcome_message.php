@@ -12,7 +12,7 @@
             <div class="cv-title">
                 <div class="row">
                     <div class="col-sm-7">
-                        <h1>Sergio A. Quezada Rivera</h1>
+                        <h1><?php echo $nombre; ?></h1>
                     </div>
                     <div class="col-sm-5 text-right dl-share">
                         <!-- AddToAny BEGIN -->

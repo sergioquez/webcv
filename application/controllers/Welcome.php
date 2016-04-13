@@ -3,24 +3,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
-	public function index()
-	{
+	public function index()	{
+		$query = $this->db->get('cv');
+		$row = $query->row_array();
+
+		$d1 = new DateTime($row['birth_date']);
+		$d2 = new DateTime(date("Y-m-d H:i:s"));
+		$diff = $d2->diff($d1);
+
+		$data = array(
+				'nombre'	=> ($row['name'] . ' ' . $row['last_name']),
+				'edad'		=> ($diff->y),
+				'presentacion'	=> $row['presentation']
+			);
+
 		$this->load->helper('url');
-		$this->load->template('welcome_message');
+		$this->load->template('welcome_message', $data);
 	}
 }
